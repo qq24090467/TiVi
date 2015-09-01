@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/taxi_vaxi_star_rating_none"/>
+    <item
+        android:id="@+android:id/secondaryProgress"
+        android:drawable="@drawable/taxi_vaxi_star_rating_none"/>
+    <item
+        android:id="@+android:id/progress"
+        android:drawable="@drawable/taxi_vaxi_star_rating_full"/>
+
+</layer-list><!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/drawable/custom_ratingbar_selector.xml -->

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c88807a66be1fb8e4b92179b38f8bbe596d64b5e.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-495d35ad0505fc8c8f6bb8116b3bf8b4d895d643.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-04839dd4b6024f3fe18baf60ae8c4a66da639c3d.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-9db3426c0236c8c73c228f0092bc80cabd186641.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-69499b72c76a971c2e19afd71c4d6c9bfc9f1c70.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-cb9f65cc4e57f92ca8438b6062c58fe08c521a83.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-25842f57facfea2a9ebc5d8e0cc43c793f7e4e1d.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-a323579a0aadaef130c09a297319eece8f2c7949.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-4c15d3cc136c34c5bd46b9cbe1eb347fab8fff34.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-83dba0de2b8c5c095499595bca3fd759fe1cc077.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-032a53b8addf2f10afc6c301989ce51369aafc14.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-a9056db0b1c1f03c80b21e2a5bd1247493acfbd8.jar" />
+    </item>
+    <item
+        jar="A:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-3a963aeab482b9c8d830a0438302d360f4009ccc.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-aab2dda3127a3fd87c72f4e37edc7484c49d8c66.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-b290fef1e0341fa9f2cd9d2b1a326fe4ef421c04.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\TaxiVaxiOperator\material_design_library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="62a4b41d6d69d5a658e170e6b50140fa5ef38303">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-b686b333db4b532523d3b59f8b45f5bc4aac6845.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-0d753a3ead8131fd4ccc594c8f36fe7db6bfa405.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-81e518ee13dab557f58512fc8504dea4b60826dc.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-19a4ca45edf712285ad35ba433eef949760f0600.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-bdd5687ce743322dfbb6a09505b169aa4bae45cb.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\libs\universal-image-loader-1.9.3-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29cf65d299e133ec68caba92b29f69289713975b">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-SNAPSHOT-ae5a485c71a697b86081c25c36ef1e81436c8b3e.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-17ec6f52b3bc4ec78630ea775bef540171b97bb5.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-78253da09263966b9e10b04d3f883c1d6f383f5a.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-09ec6cb5d2026f183d5e778db1eccc61d10f6d74.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-ee0a41809b83aaf668238775a6aee7180469af14.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-19649647baefd92dfa5810b035f7f9c85fa0a73d.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\libs\javabase64-1.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d6c41daabd8f7aebf65893dcbbfc18b5b78ea74">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\javabase64-1.3.1-1b54821c68fa574dd94f4b5641b7c97541140aca.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-acff23b741189254ba449bdd3f2a890dba550918.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\gson-2.2.2-25933af02cb967a011ee435201fb9f73e1ff37cd.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-f963229e2a144606afef81ca6373b2dd109f64d8.jar" />
+    </item>
+    <item
+        jar="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="A:\android\w\TaxiVaxiOperator\taxiVaxiOperator\build\intermediates\pre-dexed\debug\classes-6ec0b60c757110439e7817b049a1fc64a4d56c68.jar" />
+    </item>
+
+</items>

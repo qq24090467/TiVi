@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:fromYDelta="0.0"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:toYDelta="50.0%p" />
+<!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/anim/abc_slide_out_bottom.xml -->

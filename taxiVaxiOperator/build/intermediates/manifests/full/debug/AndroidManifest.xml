@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.taxivaxi.operator.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="22"
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.android.taxivaxi.operator.app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.taxivaxi.operator.app.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.taxivaxi.operator.app.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="com.android.taxivaxi.operator.app.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.android.taxivaxi.operator.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.android.taxivaxi.operator.app.common.GlobalData"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/taxivaxi_ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.LauncherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.SplashScreenActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.BookingHistoryDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.EndShiftActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.ProfileScreenActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.NewOrderComingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.BookingHistoryActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.taxivaxi.operator.app.activities.RideCompletedActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- GCM RECIVER -->
+        <receiver
+            android:name="com.android.taxivaxi.operator.app.activities.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.android.taxivaxi.operator.app" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.android.taxivaxi.operator.app.activities.GcmIntentService" />
+        <service android:name="com.android.taxivaxi.operator.app.activities.MyService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+    </application>
+
+</manifest>

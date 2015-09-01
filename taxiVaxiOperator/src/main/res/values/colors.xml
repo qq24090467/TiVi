@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material Light_Blue Primary -->
+    <color name="color_light_blue_500">#0277bd</color>
+    <color name="color_light_blue_100">#b9e1f8</color>
+    <color name="color_light_blue_700">#1687ca</color>
+
+    <!-- Material Orange Accent -->
+    <color name="color_orange_A200">#ff9800</color>
+    <color name="color_orange_A100">#ffd180</color>
+    <color name="color_orange_A400">#ff9100</color>
+    <color name="primary_color">@color/color_light_blue_500</color>
+    <color name="primary_color_light">@color/color_light_blue_100</color>
+    <color name="primary_color_dark">@color/color_light_blue_700</color>
+    <color name="accent_color">@color/color_orange_A200</color>
+    <color name="accent_color_light">@color/color_orange_A100</color>
+    <color name="accent_color_dark">@color/color_orange_A400</color>
+
+    <!-- taxi vaxi color -->
+    <color name="taxi_vaxi_color_orange">#fcaf17</color>
+    <color name="taxi_vaxi_color_black">#606060</color>
+    <color name="taxi_vaxi_color_light_gray">#f0f0f0</color>
+    <color name="taxi_vaxi_color_orange_dark">#f5a713</color>
+    <color name="taxi_vaxi_text_color_gray">#707070</color>
+    <color name="taxi_vaxi_text_color_black">#505050</color>
+    <color name="taxi_vaxi_text_color_green">#33CC33</color>
+
+    <!-- Drawer Article Color -->
+    <color name="color_apps">#0277BD</color>
+    <color name="color_sales">#FF5722</color>
+    <color name="color_blog">#4CAF50</color>
+    <color name="color_bookmark">#FFC107</color>
+    <color name="color_community">#F44336</color>
+
+    <!-- Text Colors -->
+    <color name="divider">#dadada</color>
+    <color name="hints">#b8b8b8</color>
+    <color name="secondary">#727272</color>
+    <color name="text">#212121</color>
+
+    <!-- Google Brand Colors -->
+    <color name="google_red">#dd4b39</color>
+    <color name="google_white">#ffffff</color>
+    <color name="google_text_disabled">#737373</color>
+    <color name="google_text">#ffffff</color>
+    <color name="refresh_progress_1">@color/accent_color_light</color>
+    <color name="refresh_progress_2">@color/accent_color_dark</color>
+    <color name="refresh_progress_3">@color/primary_color</color>
+
+    <!--  -->
+
+    <color name="App_background">#E9E9E9</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#5FABFF</color>
+    <color name="list_item_title">#A4A4A8</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#49A448</color>
+    <color name="list_background_pressed11">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="image_boder_color">#EEEEEE</color>
+
+    <!-- View Seprated line -->
+    <color name="view_grey">#5EB454</color>
+
+    <!-- for grid -->
+    <color name="orange">#ffffdc7e</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="green">#ff8dd304</color>
+    <color name="yellow">#fffffbae</color>
+    <color name="red">#fff10800</color>
+    <color name="list_item_pressed">#1A000000</color>
+
+    <!-- for Booking Table -->
+    <color name="booking_Table_Title">#000000</color>
+    <color name="booking_Table_Value">#000000</color>
+
+    <!-- Available Booking -->
+    <color name="bg_Table">#ffd3d3d3</color>
+
+    <!-- BD color -->
+
+    <color name="bg_green_header_commen_color">#49A448</color>
+    <color name="bg_green_header_white_text_color">#FAFEF8</color>
+    <color name="bg_green_text_color">#5EB454</color>
+    <color name="bg_gray_text_color">#373D3D</color>
+
+    <!-- new UI color -->
+    <color name="home_tab_color">#ffffff</color>
+
+    <!--
+       <color name="sa_green">#14a804</color>
+       <color name="stacked_green">#118504</color>
+       <color name="accent_green">#97e08f</color>
+    -->
+
+    <color name="sa_green">#eaeaea</color>
+    <color name="stacked_green">#ffffff</color>
+    <color name="accent_green">#97e08f</color>
+
+    <!-- item_search UI color -->
+    <color name="default_search_item_color">#282828</color>
+    <color name="default_green_item_text_color">#58b84f</color>
+    <color name="item_search_result_normal_color">#9d9fa2</color>
+
+    <!-- ERRO TEXT color -->
+
+    <color name="common_error_text_color">#a8a8a8</color>
+
+    <!-- quick_view UI color -->
+    <color name="sliding_offer_background_yello_color">#ffb20e</color>
+    <color name="sliding_offer_seperater_yello_color">#ffd67f</color>
+    <color name="bg_black_tab_text_color">#454545</color>
+
+    <!-- book table -->
+    <color name="bg_read_error_color">#ed4a2a</color>
+
+    <!-- RestaurentProfile UI color -->
+    <color name="orange_check_in_color">#fb8f03</color>
+    <color name="restaurent_profile_wishlist_gray_cokor">#a4a5a8</color>
+    <color name="restaurent_profile_wishlist_orange_cokor">#fb8f03</color>
+
+    <!-- login UI color -->
+
+    <color name="bg_read_g_plus_button">#DE5E46</color>
+
+    <!-- Booking table UI color -->
+
+    <color name="default_read_color">#EF3B23</color>
+    <color name="default_booking_history_gray_color_bg">#c3c3c3</color>
+
+    <!-- Gray Color Profile -->
+    <color name="Gray_Color_Circle_Profile">#8E8D8D</color>
+
+    <!--
+    <color name="bg_green_translucent">#bb008000</color>
+    <color name="bg_dark_green_translucent">#bb006400</color>
+    -->
+
+    <color name="bg_green_translucent">#0277bd</color>
+    <color name="bg_dark_green_translucent">#0288bd</color>
+
+    <!-- Ripple color -->
+    <color name="rippelColor">#FFFFFF</color>
+
+</resources>

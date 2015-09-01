@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/head_login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/taxi_vaxi_app_bg"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/taxi_vaxi_color_orange"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/Drawer_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/Drawer_toggle"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text=" Operator Login"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0277bd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.taxivaxi.operator.app.floatingtextview.FloatingLabelEditText
+                android:id="@+id/edit_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:drawableLeft="@drawable/taxi_vaxi_reg_mail_icon"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="#505050"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:flw_inputWidgetTextColor="#505050"
+                app:flw_inputWidgetTextSize="20sp"
+                app:flw_labelText="Email"
+                app:flw_labelTextColor="#505050"
+                app:flw_labelTextSize="16sp" />
+
+            <com.android.taxivaxi.operator.app.floatingtextview.FloatingLabelEditText
+                android:id="@+id/edit_user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:drawableLeft="@drawable/taxi_vaxi_reg_password_icon"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="#505050"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:flw_inputWidgetTextColor="#505050"
+                app:flw_inputWidgetTextSize="20sp"
+                app:flw_labelText="Password"
+                app:flw_labelTextColor="#505050"
+                app:flw_labelTextSize="16sp" />
+
+            <TextView
+                android:id="@+id/btn_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:paddingBottom="15dp"
+                android:paddingRight="3dp"
+                android:text="Forgot Password?"
+                android:textColor="#0277bd"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/taxi_vaxi_color_black"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingRight="3dp"
+            android:textColor="@color/taxi_vaxi_text_color_gray"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/activity_login_screen.xml -->

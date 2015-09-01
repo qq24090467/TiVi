@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="10dp" >
+
+    <!--
+         <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:indeterminateDrawable="@drawable/my_progress_indeterminate" />
+    -->
+
+    
+     <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/Progres_Custom_Dialog"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/custom_progress_background" />
+
+</RelativeLayout><!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/custom_progress_dialog.xml -->
