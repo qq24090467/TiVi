@@ -7,4 +7,4 @@
     <item android:state_enabled="true" android:drawable="@drawable/bg_edittext_default" />
     <item android:state_focused="true" android:drawable="@drawable/bg_edittext_disabled_focused" />
     <item android:drawable="@drawable/bg_edittext_disabled" />
-</selector><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/drawable/bg_edittext.xml -->
+</selector><!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/drawable/bg_edittext.xml -->
