@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/decelerate_interpolator"
         android:toAlpha="1.0" />
 
-</set><!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/anim/fade_in.xml -->
+</set><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/anim/fade_in.xml -->

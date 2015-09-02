@@ -2,4 +2,4 @@
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/pager"
     android:layout_width="match_parent" android:layout_height="match_parent"
     tools:context="com.android.taxivaxi.operator.app.MyBookings" />
-<!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/activity_my_bookings.xml -->
+<!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/activity_my_bookings.xml -->

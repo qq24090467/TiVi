@@ -25,4 +25,4 @@
         android:layout_centerInParent="true"
         android:indeterminateDrawable="@drawable/custom_progress_background" />
 
-</RelativeLayout><!-- From: file:/A:/android/w/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/custom_progress_dialog.xml -->
+</RelativeLayout><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/layout/custom_progress_dialog.xml -->
