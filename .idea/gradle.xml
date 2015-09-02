@@ -10,8 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/material_design_library" />
-            <option value="$PROJECT_DIR$/taxiVaxiOperator" />
           </set>
         </option>
       </GradleProjectSettings>

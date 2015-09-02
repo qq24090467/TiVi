@@ -25,4 +25,4 @@
         android:layout_height="@dimen/tabSelectorHeight"
         android:layout_gravity="bottom" />
 
-</FrameLayout><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/material_design_library/src/main/res/layout/material_tab_icon.xml --><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/material_design_library/build/intermediates/bundles/debug/res/layout/material_tab_icon.xml -->
+</FrameLayout><!-- From: file:/A:/android/TiVi/material_design_library/src/main/res/layout/material_tab_icon.xml --><!-- From: file:/A:/android/TiVi/material_design_library/build/intermediates/bundles/debug/res/layout/material_tab_icon.xml -->

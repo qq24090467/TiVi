@@ -11,4 +11,4 @@
         android:id="@+android:id/progress"
         android:drawable="@drawable/taxi_vaxi_star_rating_full"/>
 
-</layer-list><!-- From: file:/D:/PD%201%209/TaxiVaxiOperator/taxiVaxiOperator/src/main/res/drawable/custom_ratingbar_selector.xml -->
+</layer-list><!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/drawable/custom_ratingbar_selector.xml -->

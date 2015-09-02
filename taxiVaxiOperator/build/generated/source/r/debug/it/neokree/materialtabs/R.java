@@ -410,7 +410,7 @@ public final class R {
 		public static final int progress_circular = 0x7f0c000a;
 		public static final int progress_horizontal = 0x7f0c000b;
 		public static final int radio = 0x7f0c006a;
-		public static final int reveal = 0x7f0c00dc;
+		public static final int reveal = 0x7f0c00ea;
 		public static final int right = 0x7f0c0001;
 		public static final int search_badge = 0x7f0c0074;
 		public static final int search_bar = 0x7f0c0073;
@@ -422,7 +422,7 @@ public final class R {
 		public static final int search_plate = 0x7f0c0078;
 		public static final int search_src_text = 0x7f0c0079;
 		public static final int search_voice_btn = 0x7f0c007d;
-		public static final int selector = 0x7f0c00de;
+		public static final int selector = 0x7f0c00ec;
 		public static final int shortcut = 0x7f0c0069;
 		public static final int showCustom = 0x7f0c0014;
 		public static final int showHome = 0x7f0c0015;
@@ -430,7 +430,7 @@ public final class R {
 		public static final int split_action_bar = 0x7f0c000c;
 		public static final int submit_area = 0x7f0c007b;
 		public static final int tabMode = 0x7f0c0010;
-		public static final int text = 0x7f0c00dd;
+		public static final int text = 0x7f0c00eb;
 		public static final int title = 0x7f0c005c;
 		public static final int up = 0x7f0c000d;
 		public static final int useLogo = 0x7f0c0017;
@@ -466,11 +466,11 @@ public final class R {
 		public static final int abc_search_dropdown_item_icons_2line = 0x7f030015;
 		public static final int abc_search_view = 0x7f030016;
 		public static final int abc_simple_dropdown_hint = 0x7f030018;
-		public static final int material_tab = 0x7f03002b;
-		public static final int material_tab_icon = 0x7f03002c;
-		public static final int support_simple_spinner_dropdown_item = 0x7f03003b;
-		public static final int tab = 0x7f03003c;
-		public static final int tab_icon = 0x7f03003d;
+		public static final int material_tab = 0x7f03002c;
+		public static final int material_tab_icon = 0x7f03002d;
+		public static final int support_simple_spinner_dropdown_item = 0x7f03003c;
+		public static final int tab = 0x7f03003d;
+		public static final int tab_icon = 0x7f03003e;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

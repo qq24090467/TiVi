@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TaxiVaxiOperator.iml" filepath="$PROJECT_DIR$/TaxiVaxiOperator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/material_design_library/material_design_library.iml" filepath="$PROJECT_DIR$/material_design_library/material_design_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taxiVaxiOperator/taxiVaxiOperator.iml" filepath="$PROJECT_DIR$/taxiVaxiOperator/taxiVaxiOperator.iml" />
     </modules>
   </component>
 </project>
