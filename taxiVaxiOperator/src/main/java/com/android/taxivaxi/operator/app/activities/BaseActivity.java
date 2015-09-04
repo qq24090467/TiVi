@@ -7,9 +7,11 @@ import android.os.Bundle;
 //import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -19,6 +21,7 @@ import com.android.taxivaxi.operator.app.common.DrawerItem;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by AV6 on 8/28/2015.
@@ -37,6 +40,7 @@ public class BaseActivity extends Activity {
         mTitleList = new String[]{"Home","My Bookings"};
         images = new Integer[]{R.drawable.taxi_vaxi_nav_home_icon,
                 R.drawable.taxi_vaxi_nav_my_booking_icon };
+        Object localObject1 = new Locale("US");
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         drawerItems = new ArrayList<DrawerItem>();
@@ -44,6 +48,10 @@ public class BaseActivity extends Activity {
             DrawerItem item = new DrawerItem(images[i], mTitleList[i]);
             drawerItems.add(item);
         }
+
+        /*LayoutInflater inflater = getLayoutInflater();
+        ViewGroup header = (ViewGroup)inflater.inflate(R.layout.header, mDrawerList, false);
+        mDrawerList.addHeaderView(header, null, false);*/
 
         // Set the adapter for the list view
         /*mDrawerList.setAdapter(new ArrayAdapter<CharSequence>(this,

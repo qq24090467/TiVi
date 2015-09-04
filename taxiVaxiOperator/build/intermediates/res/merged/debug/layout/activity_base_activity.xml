@@ -16,7 +16,7 @@
             android:choiceMode="singleChoice"
             android:divider="@android:color/transparent"
             android:dividerHeight="0dp"
-            android:background="#cccc"/>
+            android:background="#FFF"/>
 
 
 </android.support.v4.widget.DrawerLayout><!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/layout/activity_base_activity.xml -->

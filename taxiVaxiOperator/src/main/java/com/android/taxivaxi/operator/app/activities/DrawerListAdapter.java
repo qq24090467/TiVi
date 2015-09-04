@@ -2,6 +2,7 @@ package com.android.taxivaxi.operator.app.activities;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,9 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.taxivaxi.operator.app.R;
+import com.android.taxivaxi.operator.app.common.CustomFontsLoader;
 import com.android.taxivaxi.operator.app.common.DrawerItem;
 
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by MB on 9/1/2015.
@@ -52,6 +55,10 @@ public class DrawerListAdapter extends ArrayAdapter<DrawerItem> {
 
         //holder.txtDesc.setText(drawerItem.getDesc());
         holder.txtTitle.setText(drawerItem.getTitle());
+        Object localObject1 = new Locale("US");
+
+        //localObject1 = CustomFontsLoader.getTypeface(this, 1);
+        holder.txtTitle.setTypeface( CustomFontsLoader.getTypeface(getContext(), 1));
         holder.imageView.setImageResource(drawerItem.getImageId());
 
         return convertView;
