@@ -23,6 +23,7 @@ import com.android.taxivaxi.operator.app.R;
 import com.android.taxivaxi.operator.app.common.ApplicationConstant;
 import com.android.taxivaxi.operator.app.common.DebugLog;
 import com.android.taxivaxi.operator.app.common.NetworkUtilities;
+import com.android.taxivaxi.operator.app.controller.GetDriversAsync;
 import com.android.taxivaxi.operator.app.controller.RejectRequestAsync;
 
 import org.json.JSONException;
@@ -38,6 +39,7 @@ public class BookingHistoryDetailsActivity extends BaseActivity implements View.
     Button button_accept,button_reject,button_assign_driver,button_set_driver,button_cancel_set;
     private String status="";
     private String status_color="";
+    public String city_id="";
     private SharedPreferences UserInfo;
     TextView Id,Status,Pickup_Location,Pickup_DateTime;
     ListView driver_list;
@@ -71,12 +73,29 @@ public class BookingHistoryDetailsActivity extends BaseActivity implements View.
         pickup_location=getIntent().getExtras().getString("pickup_location");
         status=getIntent().getExtras().getString("status");
         status_color=getIntent().getExtras().getString("status_color");
+        city_id = getIntent().getExtras().getString("city_id");
 
         Id.setText("Booking ID: "+id);
         Status.setTextColor(Color.parseColor(status_color));
         Status.setText(status);
         Pickup_DateTime.setText(pickup_datetime);
         Pickup_Location.setText(pickup_location);
+
+        if (NetworkUtilities.isInternet(this)) {
+
+            SharedPreferences UserInfo = getSharedPreferences("UserInfo", Context.MODE_PRIVATE);
+
+            GetDriversAsync mAsync = new GetDriversAsync(this,
+                    getDriversHandler,ApplicationConstant.METHOD_GET_DRIVERS);
+			/*Toast.makeText(BookingHistoryActivity.this, "Saved access_token  " + (UserInfo.getString("access_token", "")).toString(), Toast.LENGTH_LONG)
+					.show();*/
+
+            mAsync.execute(UserInfo.getString("access_token", ""),city_id);
+
+        } else {
+            Toast.makeText(this, "Please check your internet connection", Toast.LENGTH_SHORT)
+                    .show();
+        }
     }
 
     @Override
@@ -161,6 +180,31 @@ public class BookingHistoryDetailsActivity extends BaseActivity implements View.
                         Intent i1 = new Intent(BookingHistoryDetailsActivity.this, BookingHistoryActivity.class);
                         i1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(i1);
+                    } else {
+                        Toast.makeText(getApplicationContext(), ((JSONObject) msg.obj).getString("error").toString(),
+                                Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    };
+
+    @SuppressLint("HandlerLeak")
+    private Handler getDriversHandler = new Handler() {
+
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+
+            if (msg.obj != null) {
+                try {
+                    if (((JSONObject) msg.obj).getString("success").toString().equalsIgnoreCase("1")) {
+
+                        Toast.makeText(getApplicationContext(), "Drivers Loaded "+((JSONObject) msg.obj).getString("response").toString(),
+                                Toast.LENGTH_LONG).show();
+
                     } else {
                         Toast.makeText(getApplicationContext(), ((JSONObject) msg.obj).getString("error").toString(),
                                 Toast.LENGTH_LONG).show();
