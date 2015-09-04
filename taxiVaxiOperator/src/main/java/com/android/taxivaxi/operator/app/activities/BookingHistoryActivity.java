@@ -52,7 +52,7 @@ public class BookingHistoryActivity extends BaseActivity implements MaterialTabL
 	private static Context mContext ;
 	private static MyBookingHistoryData mData = null;
 
-	private static final String[] CONTENT = new String[] { "ALL", "UPCOMING", "COMPLETED" };
+	private static final String[] CONTENT = new String[] { "ALL BOOKINGS","ASSIGNED","UNASSIGNED", "COMPLETED" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -303,7 +303,7 @@ public class BookingHistoryActivity extends BaseActivity implements MaterialTabL
 						ArrayList<TourBooking> bookings = new ArrayList<TourBooking>();
 
 						for (int i = 0; i < mData.getResponse().getBookings().size(); i++) {
-							if (mData.getResponse().getBookings().get(i).getStatus().equalsIgnoreCase("upcoming")) {
+							if (mData.getResponse().getBookings().get(i).getIs_assigned().equalsIgnoreCase("1")) {
 								bookings.add(mData.getResponse().getBookings().get(i));
 							}
 						}
@@ -318,7 +318,39 @@ public class BookingHistoryActivity extends BaseActivity implements MaterialTabL
 					no_record_found_ll.setVisibility(View.VISIBLE);
 				}
 
-			} else {
+			} else if(position==2){
+				inflater = ((Activity) context).getLayoutInflater();
+				layout = inflater.inflate(R.layout.fragment_my_booking_history_all, view, false);
+
+				ListView result_list_view = (ListView) layout.findViewById(R.id.result_list_view);
+
+				no_record_found_ll = (LinearLayout) layout.findViewById(R.id.no_record_found_ll);
+				no_data_found = (TextView) layout.findViewById(R.id.no_data_found);
+
+				try {
+					if (mData != null && mData.getResponse().getBookings().size() > 0) {
+
+						ArrayList<TourBooking> bookings = new ArrayList<TourBooking>();
+
+						for (int i = 0; i < mData.getResponse().getBookings().size(); i++) {
+							if (mData.getResponse().getBookings().get(i).getIs_assigned().equalsIgnoreCase("0")) {
+								bookings.add(mData.getResponse().getBookings().get(i));
+							}
+						}
+						no_record_found_ll.setVisibility(View.GONE);
+						BookingHistoryListAdapter mAdapter = new BookingHistoryListAdapter(mContext, bookings);
+						result_list_view.setAdapter(mAdapter);
+					} else {
+						no_record_found_ll.setVisibility(View.VISIBLE);
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+					no_record_found_ll.setVisibility(View.VISIBLE);
+				}
+
+			}
+			else
+			{
 				inflater = ((Activity) context).getLayoutInflater();
 				layout = inflater.inflate(R.layout.fragment_my_booking_history_all, view, false);
 

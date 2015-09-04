@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/decelerate_interpolator"
         android:toAlpha="1.0" />
 
-</set><!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/anim/fade_in.xml -->
+</set><!-- From: file:/E:/Software%20Ashu/Git%20TiVi/TiVi/taxiVaxiOperator/src/main/res/anim/fade_in.xml -->

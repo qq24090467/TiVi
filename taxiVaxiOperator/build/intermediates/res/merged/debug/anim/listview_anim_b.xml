@@ -2,4 +2,4 @@
 <layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
     android:animation="@anim/listview_scale"
     android:delay="50%" />
-<!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/anim/listview_anim_b.xml -->
+<!-- From: file:/E:/Software%20Ashu/Git%20TiVi/TiVi/taxiVaxiOperator/src/main/res/anim/listview_anim_b.xml -->

@@ -18,4 +18,4 @@
         android:startOffset="200"
         android:duration="300" />
      <alpha android:fromAlpha="0.5" android:toAlpha="1"/>
-</set><!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/anim/open_main.xml -->
+</set><!-- From: file:/E:/Software%20Ashu/Git%20TiVi/TiVi/taxiVaxiOperator/src/main/res/anim/open_main.xml -->

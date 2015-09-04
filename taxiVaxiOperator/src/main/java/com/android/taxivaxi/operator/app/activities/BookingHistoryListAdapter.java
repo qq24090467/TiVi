@@ -87,6 +87,7 @@ public class BookingHistoryListAdapter extends BaseAdapter {
                 mBundle.putString("status", ((TourBooking)BookingHistoryListAdapter.this.bookings.get(position)).getStatus());
                 mBundle.putString("status_color", ((TourBooking)BookingHistoryListAdapter.this.bookings.get(position)).getStatus_color());
                 mBundle.putString("pickup_datetime", ((TourBooking)BookingHistoryListAdapter.this.bookings.get(position)).getPickup_datetime());
+				mBundle.putString("city_id", ((TourBooking)BookingHistoryListAdapter.this.bookings.get(position)).getCity_id());
 
                 mIntent.putExtras(mBundle);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

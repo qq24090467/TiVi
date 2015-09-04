@@ -24,5 +24,10 @@ public class ApplicationConstant {
 	public static String METHOD_TIMEOUT_BOOKING = "/timeoutBooking/";
 
 	public static String METHOD_BOOKING_HISTORY = "http://taxivaxi.com/api/tour_bookings/getAll";
+	public static String METHOD_ASSIGN_TAXI = "http://taxivaxi.com/api/tour_bookings/assignTaxi";
+	public static String METHOD_GET_TAXIS = "http://taxivaxi.com/api/taxis/getAllByModel";
+	public static String METHOD_ASSIGN_DRIVER = "http://taxivaxi.com/api/tour_bookings/assignDriver";
+	public static String METHOD_GET_DRIVERS = "http://taxivaxi.com/api/drivers/getAllByCity";
+
 
 }

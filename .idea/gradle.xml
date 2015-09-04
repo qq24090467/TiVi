@@ -5,14 +5,16 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\Android Studio\gradle\gradle-2.4" />
-        <option name="gradleJvm" value="1.7" />
+        <option name="gradleHome" value="E:\Software Ashu\Android Studio\gradle\gradle-2.2.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/material_design_library" />
+            <option value="$PROJECT_DIR$/taxiVaxiOperator" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
   </component>
 </project>
+

@@ -8,6 +8,7 @@ public class TourBooking implements Parcelable {
 	private String id, user_id, taxi_id, driver_id, tour_type, pickup_location, p_lat, p_long, cities, days, hours,
 			booking_date;
 	private String pickup_datetime, promo_code, no_of_seats, status_id, created, modified, status,status_color;
+	private String is_assigned,city_id;
 
 	public String getStatus() {
 		return status;
@@ -161,6 +162,10 @@ public class TourBooking implements Parcelable {
 	}
     public void setStatus_color(String status_color){ this.status_color = status_color;}
     public String getStatus_color(){return status_color;};
+	public void setIs_assigned(String is_assigned){ this.is_assigned = is_assigned;}
+	public String getIs_assigned(){return is_assigned;};
+	public void setCity_id(String city_id){ this.city_id = city_id;}
+	public String getCity_id(){return city_id;};
 
 
 	@Override

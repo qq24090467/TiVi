@@ -4,4 +4,4 @@
     android:fromYDelta="0.0"
     android:interpolator="@android:anim/accelerate_interpolator"
     android:toYDelta="50.0%p" />
-<!-- From: file:/A:/android/TiVi/taxiVaxiOperator/src/main/res/anim/abc_slide_out_bottom.xml -->
+<!-- From: file:/E:/Software%20Ashu/Git%20TiVi/TiVi/taxiVaxiOperator/src/main/res/anim/abc_slide_out_bottom.xml -->
